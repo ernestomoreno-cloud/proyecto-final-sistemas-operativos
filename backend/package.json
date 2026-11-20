@@ -1,0 +1,13 @@
+{
+  "name": "backend-so-uao",
+  "version": "1.0.0",
+  "description": "Servicio Backend con metricas Prometheus - UAO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "prom-client": "^15.1.3"
+  }
+}
